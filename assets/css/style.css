@@ -1,0 +1,77 @@
+:root {
+  --accent: #822433;          /* Sapienza red */
+  --accent-soft: #f6eef0;
+  --text: #1f2328;
+  --muted: #5f6670;
+  --bg: #ffffff;
+  --border: #e3e5e8;
+  --max: 1040px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3 { line-height: 1.25; }
+h2 { margin-top: 2.2rem; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+main.container { padding-top: 2rem; padding-bottom: 3rem; min-height: 70vh; }
+
+/* Header */
+.site-header { border-bottom: 3px solid var(--accent); background: var(--bg); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 68px; flex-wrap: wrap; }
+.brand { display: flex; flex-direction: column; color: var(--text); }
+.brand:hover { text-decoration: none; }
+.brand-name { font-weight: 800; font-size: 1.4rem; color: var(--accent); letter-spacing: .02em; }
+.brand-sub { font-size: .8rem; color: var(--muted); }
+.site-nav a { margin-left: 1.4rem; color: var(--text); font-weight: 500; }
+.site-nav a.active, .site-nav a:hover { color: var(--accent); text-decoration: none; }
+.nav-toggle, .nav-toggle-label { display: none; }
+
+/* Home */
+.hero { padding: 2.5rem 0 1rem; }
+.hero h1 { font-size: 2.6rem; margin: 0 0 .5rem; color: var(--accent); }
+.lead { font-size: 1.2rem; color: var(--muted); max-width: 46rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.card { border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 6px; padding: 1rem 1.2rem; }
+.card h3 { margin-top: .2rem; }
+
+/* Lists */
+.meta { color: var(--muted); font-size: .9rem; margin-right: .8rem; }
+.news-list, .pubs { padding-left: 0; list-style: none; }
+.news-list li { padding: .45rem 0; border-bottom: 1px solid var(--border); }
+.pub { padding: .6rem 0; border-bottom: 1px solid var(--border); }
+.pub-title { font-weight: 600; }
+.pub a { margin-left: .4rem; font-size: .9rem; }
+
+/* People */
+.people { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; }
+.person { text-align: center; }
+.person img, .avatar { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin: 0 auto; }
+.avatar { display: flex; align-items: center; justify-content: center; background: var(--accent-soft); color: var(--accent); font-size: 2.2rem; font-weight: 700; }
+.person h3 { margin: .7rem 0 .1rem; }
+.role { color: var(--muted); margin: 0 0 .5rem; }
+.links a { margin: 0 .4rem; }
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; padding: 1.2rem 0; }
+.site-footer p { margin: .2rem 0; }
+
+/* Mobile */
+@media (max-width: 720px) {
+  .nav-toggle-label { display: block; width: 32px; height: 24px; cursor: pointer; position: relative; }
+  .nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
+    position: absolute; left: 0; width: 100%; height: 3px; background: var(--text); content: "";
+  }
+  .nav-toggle-label span { top: 10px; }
+  .nav-toggle-label span::before { top: -8px; }
+  .nav-toggle-label span::after { top: 8px; }
+  .site-nav { display: none; width: 100%; padding-bottom: .8rem; }
+  .nav-toggle:checked ~ .site-nav { display: block; }
+  .site-nav a { display: block; margin: .5rem 0; }
+  .hero h1 { font-size: 2rem; }
+}

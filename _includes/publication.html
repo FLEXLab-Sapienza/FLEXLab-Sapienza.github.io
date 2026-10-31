@@ -1,0 +1,8 @@
+<li class="pub">
+  <span class="pub-authors">{{ include.pub.authors }}</span>.
+  <span class="pub-title">{{ include.pub.title }}</span>.
+  <em>{{ include.pub.venue }}</em>, {{ include.pub.year }}.
+  {% if include.pub.doi %}<a href="https://doi.org/{{ include.pub.doi }}">DOI</a>{% endif %}
+  {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}">PDF</a>{% endif %}
+  {% if include.pub.code %}<a href="{{ include.pub.code }}">Code</a>{% endif %}
+</li>

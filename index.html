@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="lead">{{ site.description }}</p>
+</section>
+
+<section>
+  <h2>Research</h2>
+  <div class="cards">
+    {% for r in site.data.research %}
+    <div class="card">
+      <h3>{{ r.title }}</h3>
+      <p>{{ r.summary }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2>Latest news</h2>
+  <ul class="news-list">
+    {% for post in site.posts limit:3 %}
+    <li><span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/news/' | relative_url }}">All news &rarr;</a></p>
+</section>

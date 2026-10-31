@@ -1,0 +1,21 @@
+# Group members. Sections are shown in this order on the People page.
+# photo: file name in assets/img/people/ (optional; initials are shown otherwise)
+- section: Principal Investigator
+  people:
+    - name: Mario Tindaro Migliorino
+      role: Principal Investigator
+      email: mariotindaro.migliorino@uniroma1.it
+      photo:
+      bio: Short bio to be added.
+      links:
+        - label: Scholar
+          url: https://scholar.google.com/
+
+- section: PhD Students
+  people:
+    - name: Jane Doe
+      role: PhD Student
+      bio: Placeholder — replace with a real member.
+
+- section: Alumni
+  people: []

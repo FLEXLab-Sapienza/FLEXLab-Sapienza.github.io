@@ -1,0 +1,41 @@
+# FLEXLab – Sapienza University of Rome
+title: FLEXLab
+subtitle: Sapienza University of Rome
+description: >-
+  FLEXLab is a research group at Sapienza University of Rome.
+email: mariotindaro.migliorino@uniroma1.it
+affiliation: Sapienza University of Rome
+address: |
+  Department name
+  Via Eudossiana 18
+  00184 Rome, Italy
+
+# Site served at https://flexlab-sapienza.github.io/FLEXLab-Sapienza
+# If the repo is renamed to FLEXLab-Sapienza.github.io, set baseurl to "".
+url: "https://flexlab-sapienza.github.io"
+baseurl: "/FLEXLab-Sapienza"
+
+nav:
+  - title: Research
+    url: /research/
+  - title: People
+    url: /people/
+  - title: Publications
+    url: /publications/
+  - title: News
+    url: /news/
+  - title: Contact
+    url: /contact/
+
+permalink: /news/:year/:month/:title/
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
