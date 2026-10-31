@@ -21,3 +21,6 @@ Every push to `main` republishes the site automatically (1–2 minutes).
 bundle install
 bundle exec jekyll serve
 ```
+
+Ruby 3.3 is needed (Homebrew: `brew install ruby@3.3`, then
+`export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"`). Gems install into `vendor/bundle`.
