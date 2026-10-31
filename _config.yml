@@ -10,10 +10,9 @@ address: |
   Via Eudossiana 18
   00184 Rome, Italy
 
-# Site served at https://flexlab-sapienza.github.io/FLEXLab-Sapienza
-# If the repo is renamed to FLEXLab-Sapienza.github.io, set baseurl to "".
+# Site served at the org root: https://flexlab-sapienza.github.io (repo named flexlab-sapienza.github.io)
 url: "https://flexlab-sapienza.github.io"
-baseurl: "/FLEXLab-Sapienza"
+baseurl: ""
 
 nav:
   - title: Research
