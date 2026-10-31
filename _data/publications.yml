@@ -1,7 +1,8 @@
-# Publications, newest first. Fields: authors, title, venue, year, doi, pdf, code, selected
-- authors: M. T. Migliorino, J. Doe
-  title: Example publication title
-  venue: Journal Name
-  year: 2026
-  doi:
-  selected: true
+# Publications, newest first. Fields: authors, title, venue, year, doi, pdf, code
+# Example:
+# - authors: A. Author, B. Author
+#   title: Paper title
+#   venue: Journal Name
+#   year: 2026
+#   doi: 10.xxxx/xxxxx
+[]

@@ -7,11 +7,13 @@ Website of FLEXLab, Sapienza University of Rome. Built with Jekyll and published
 | What | File |
 |---|---|
 | Group name, description, address, email | `_config.yml` |
-| Research themes | `_data/research.yml` |
-| Members | `_data/members.yml` (+ photos in `assets/img/people/`) |
+| Research areas | `_data/research.yml` |
+| Measurement techniques | `_data/techniques.yml` |
+| Team | `_data/members.yml` (+ photos in `assets/img/people/`) |
 | Publications | `_data/publications.yml` |
 | News | a new file in `_posts/` named `YYYY-MM-DD-title.md` |
 | Styles / colors | `assets/css/style.css` |
+| Home flow animation | `assets/js/flow.js` |
 
 Every push to `main` republishes the site automatically (1–2 minutes).
 

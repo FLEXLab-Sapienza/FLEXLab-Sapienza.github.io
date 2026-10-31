@@ -1,7 +1,25 @@
-# Research themes shown on the Home and Research pages.
-- title: Research theme one
-  summary: One-paragraph description of the first research line.
-- title: Research theme two
-  summary: One-paragraph description of the second research line.
-- title: Research theme three
-  summary: One-paragraph description of the third research line.
+# Research areas, shown on the Home and Research pages.
+# summary: one paragraph. topics: short keywords shown as tags.
+- title: Aerodynamics
+  summary: >-
+    Wind-tunnel testing of wings, flapping-wing vehicles and car models, with a focus on
+    unsteady phenomena and wake control.
+  topics: [Wings, Flapping-wing vehicles, Car models, Unsteady flows, Wake control]
+
+- title: Energy
+  summary: >-
+    Flows in devices that produce and exchange energy: aeroelastic energy harvesters,
+    tidal turbines, fuel cells and microchannels for heat transfer.
+  topics: [Energy harvesting, Tidal turbines, Fuel cells, Microchannels]
+
+- title: Biofluid dynamics
+  summary: >-
+    Fluid dynamics of heart valves and of stents for abdominal aortic aneurysm, studied on
+    experimental models.
+  topics: [Heart valves, Aortic aneurysm, Stents]
+
+- title: Multiphase and environmental flows
+  summary: >-
+    Free-surface jets, vortices, fibre suspensions and two-phase flows, up to turbulence over
+    gravel beds and sediment transport.
+  topics: [Free-surface jets, Vortices, Fibre suspensions, Two-phase flows, Sediment transport]

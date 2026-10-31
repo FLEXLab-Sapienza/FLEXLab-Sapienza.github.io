@@ -1,6 +1,12 @@
 <footer class="site-footer">
-  <div class="container">
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} &middot; {{ site.affiliation }}</p>
-    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-name">{{ site.title }}</p>
+      <p>{{ site.address | newline_to_br }}</p>
+    </div>
+    <div>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}, {{ site.affiliation }}</p>
+    </div>
   </div>
 </footer>

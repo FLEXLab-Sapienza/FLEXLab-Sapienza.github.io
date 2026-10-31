@@ -1,12 +1,13 @@
 # FLEXLab – Sapienza University of Rome
 title: FLEXLab
-subtitle: Sapienza University of Rome
+subtitle: Experimental Fluid Dynamics · Sapienza University of Rome
 description: >-
-  FLEXLab is a research group at Sapienza University of Rome.
+  We study real flows with optical and anemometric measurements, both to understand
+  fundamental phenomena and for applications in engineering and medicine.
 email: mariotindaro.migliorino@uniroma1.it
 affiliation: Sapienza University of Rome
 address: |
-  Department name
+  Department of Mechanical and Aerospace Engineering (DIMA)
   Via Eudossiana 18
   00184 Rome, Italy
 
@@ -17,8 +18,8 @@ baseurl: ""
 nav:
   - title: Research
     url: /research/
-  - title: People
-    url: /people/
+  - title: Team
+    url: /team/
   - title: Publications
     url: /publications/
   - title: News

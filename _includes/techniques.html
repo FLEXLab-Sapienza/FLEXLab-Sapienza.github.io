@@ -1,0 +1,11 @@
+<section class="tech">
+  <h2>How we measure</h2>
+  <dl class="tech-list">
+    {% for t in site.data.techniques %}
+    <div>
+      <dt>{{ t.abbr }}<span>{{ t.name }}</span></dt>
+      <dd>{{ t.summary }}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>

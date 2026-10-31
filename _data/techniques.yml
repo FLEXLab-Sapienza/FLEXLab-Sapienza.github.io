@@ -1,0 +1,13 @@
+# Measurement techniques, shown in the "How we measure" panel.
+- abbr: PIV
+  name: Particle Image Velocimetry
+  summary: Instantaneous velocity fields over a plane illuminated by a laser sheet.
+- abbr: LDA
+  name: Laser Doppler Anemometry
+  summary: Point velocities with high time resolution, without probes in the flow.
+- abbr: HWA
+  name: Hot-Wire Anemometry
+  summary: Turbulent fluctuations measured up to high frequencies.
+- abbr: Wind tunnel
+  name: Model testing
+  summary: Tests on scale models of wings, vehicles and devices.

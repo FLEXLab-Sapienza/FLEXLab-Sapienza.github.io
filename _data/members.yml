@@ -1,21 +1,33 @@
-# Group members. Sections are shown in this order on the People page.
-# photo: file name in assets/img/people/ (optional; initials are shown otherwise)
+# Team members. Groups are shown in this order; empty groups are hidden.
+# Fields (all optional except name and role):
+#   topic     research topic or thesis subject
+#   photo     file name in assets/img/people/ (square JPG ~400px); initials are shown otherwise
+#   email, research (Ricerc@Sapienza URL), orcid (URL), scholar (URL), website (URL)
+# lead: true shows the group with larger, full-width cards.
 - section: Principal Investigator
+  lead: true
+  people:
+    - name: Giovanni Paolo Romano
+      role: Full Professor of Fluid Dynamics
+      topic: >-
+        Fundamental and applied experimental fluid dynamics: PIV, LDA, hot-wire anemometry,
+        experimental aerodynamics.
+      email: giampaolo.romano@uniroma1.it
+      research: https://research.uniroma1.it/researcher/12fa747eb7d79ac8d3fa1e5d9441b2f56db97371f81ba0e86c36b187
+
+- section: Researchers and Postdocs
   people:
     - name: Mario Tindaro Migliorino
-      role: Principal Investigator
+      role: Researcher
       email: mariotindaro.migliorino@uniroma1.it
-      photo:
-      bio: Short bio to be added.
-      links:
-        - label: Scholar
-          url: https://scholar.google.com/
 
 - section: PhD Students
-  people:
-    - name: Jane Doe
-      role: PhD Student
-      bio: Placeholder — replace with a real member.
+  people: []
+  # - name: First Last
+  #   role: PhD Student, XL cycle
+  #   topic: Thesis subject
 
 - section: Alumni
   people: []
+  # - name: First Last
+  #   role: PhD 2023, now at Company

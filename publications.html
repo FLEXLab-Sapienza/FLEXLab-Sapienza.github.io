@@ -3,6 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+{% if site.data.publications.size > 0 %}
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for y in by_year %}
 <h2>{{ y.name }}</h2>
@@ -10,3 +11,6 @@ permalink: /publications/
   {% for pub in y.items %}{% include publication.html pub=pub %}{% endfor %}
 </ul>
 {% endfor %}
+{% else %}
+<p class="lead">The publication list is being compiled. In the meantime, see the profiles on the <a href="{{ '/team/' | relative_url }}">Team</a> page.</p>
+{% endif %}
