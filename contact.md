@@ -21,7 +21,7 @@ Mario Tindaro Migliorino: [{{ site.email }}](mailto:{{ site.email }})
 ### Join us
 
 We welcome Master's thesis students and PhD candidates interested in experimental fluid
-dynamics. Send an email with your CV and a short statement of interest.
+dynamics.
 
 </aside>
 </div>
