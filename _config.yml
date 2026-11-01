@@ -38,17 +38,13 @@ nav:
     url: /phd/
   - title: Publications
     url: /publications/
-  - title: News
-    url: /news/
   - title: Contact
     url: /contact/
 
-permalink: /news/:year/:month/:title/
 markdown: kramdown
 theme: null  # no default GitHub Pages theme; we use our own layouts and CSS
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
 
 exclude:
   - README.md

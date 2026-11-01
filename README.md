@@ -14,7 +14,6 @@ Website of FLEXLab, Sapienza University of Rome. Built with Jekyll and published
 | Courses | `_data/teaching.yml` |
 | PhD programmes | `_data/phd.yml` |
 | Publications | `_data/publications.yml` |
-| News | a new file in `_posts/` named `YYYY-MM-DD-title.md` |
 | Styles / colors | `assets/css/style.css` |
 | Home flow animation | `assets/js/flow.js` |
 

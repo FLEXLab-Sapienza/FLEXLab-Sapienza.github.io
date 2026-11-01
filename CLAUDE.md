@@ -5,11 +5,12 @@ from `main` of `FLEXLab-Sapienza/FLEXLab-Sapienza.github.io` (served at the root
 Only plugins in the `github-pages` gem whitelist may be used; `theme: null` must stay, otherwise
 Pages injects the Primer theme. English only.
 
-- Content lives in `_data/*.yml` (research, techniques, facilities, members, teaching, phd, publications) and `_posts/`;
+- Content lives in `_data/*.yml` (research, techniques, facilities, members, teaching, phd, publications);
   pages are thin Liquid templates over that data. Empty member groups are hidden automatically.
 - Internal links go through `| relative_url`.
 - Design: one CSS file, fonts Archivo (headings) + Source Sans 3 (body), palette tokens in `:root`
   (maroon `#822433`, ink, muted, line, panel). The only JS is `assets/js/flow.js` (home hero canvas).
+- Home page is only the hero: no content that repeats other pages. No News page.
 - CSS/JS links carry `?v={{ site.time }}` for cache busting; keep it on any new asset link.
 - Team links are icons (`assets/img/icons/`: Sapienza seal, ORCID iD); no emails on the Team page.
 - Publications page is "Selected publications": journal articles from 2020 onward, each with a DOI,

@@ -15,42 +15,4 @@ layout: default
   <p class="hero-caption">Tracer particles around a cylinder: the same principle behind our PIV measurements.</p>
 </section>
 
-<section class="container section">
-  <div class="section-head">
-    <h2>Research areas</h2>
-    <a class="more" href="{{ '/research/' | relative_url }}">All research &rarr;</a>
-  </div>
-  <div class="areas areas-compact">
-    {% for r in site.data.research %}
-    <a class="area" href="{{ '/research/' | relative_url }}"><h3>{{ r.title }}</h3></a>
-    {% endfor %}
-  </div>
-</section>
-
-<div class="container section">
-  {% include techniques.html %}
-</div>
-
-<section class="container section">
-  <div class="split">
-    <div>
-      <div class="section-head">
-        <h2>Latest news</h2>
-        <a class="more" href="{{ '/news/' | relative_url }}">All news &rarr;</a>
-      </div>
-      <ul class="news-list">
-        {% for post in site.posts limit:4 %}
-        <li><span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <aside class="callout">
-      <h3>Join us</h3>
-      <p>We welcome Master's thesis students and PhD candidates interested in experimental fluid dynamics.</p>
-      <p><a class="more" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a></p>
-    </aside>
-  </div>
-</section>
-
 <script src="{{ '/assets/js/flow.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
