@@ -3,7 +3,7 @@ layout: page
 title: Research
 lead: >-
   We study real flows with optical and anemometric measurements, both to understand
-  fundamental phenomena and for applications in engineering and medicine.
+  fundamental phenomena and for engineering applications.
 permalink: /research/
 ---
 {% for r in site.data.research %}
@@ -11,9 +11,6 @@ permalink: /research/
   <h2>{{ r.title }}</h2>
   <div>
     <p>{{ r.summary }}</p>
-    {% if r.topics %}
-    <ul class="tags">{% for tp in r.topics %}<li>{{ tp }}</li>{% endfor %}</ul>
-    {% endif %}
   </div>
 </section>
 {% endfor %}

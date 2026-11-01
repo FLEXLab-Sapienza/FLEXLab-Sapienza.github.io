@@ -62,8 +62,6 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .areas { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; }
 .area { border-top: 2px solid var(--maroon); padding: 16px 0 26px; }
 .area p { margin: 0; max-width: 60ch; }
-.tags { list-style: none; padding: 0; margin: .8rem 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
-.tags li { font-size: .85rem; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 10px; color: var(--muted); }
 
 .tech { background: var(--panel); border-radius: 6px; padding: 28px 28px 30px; }
 .tech-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 1rem 0 0; }
