@@ -2,7 +2,7 @@
 # Fields (all optional except name and role):
 #   photo     file name in assets/img/people/ (square JPG ~400px); initials are shown otherwise
 #   sapienza  personal Sapienza page (corsidilaurea or phd.uniroma1.it profile)
-#   phd       PhD programme page (phd.uniroma1.it), orcid, scholar, website (URLs)
+#   orcid     ORCID URL (shown as icon, like sapienza); scholar, website (URLs, shown as text)
 # lead: true shows the group with larger cards.
 - section: Professors
   lead: true
@@ -11,7 +11,6 @@
       role: Full Professor
       photo: romano.jpg
       sapienza: https://corsidilaurea.uniroma1.it/it/users/giampaoloromanouniroma1it
-      phd: https://phd.uniroma1.it/web/GIOVANNI-PAOLO-ROMANO_nC182_IT.aspx
       orcid: https://orcid.org/0000-0002-5125-3337
 
     - name: Mario Tindaro Migliorino

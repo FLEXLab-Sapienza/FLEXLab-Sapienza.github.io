@@ -110,6 +110,10 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .person .links { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .95rem; }
 .person .links a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--maroon); text-underline-offset: 3px; }
 .person .links a:hover { color: var(--maroon); }
+.person .links { align-items: center; }
+.person .links .icon-link { display: inline-flex; border-radius: 50%; text-decoration: none; transition: transform .15s; }
+.person .links .icon-link:hover { transform: scale(1.12); }
+.person .links .icon-link img { width: 28px; height: 28px; display: block; }
 
 /* Footer */
 .site-footer { background: var(--ink); color: #c9d0d6; font-size: .92rem; padding: 2rem 0; }
@@ -119,6 +123,10 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .footer-name { font-family: var(--display); font-weight: 800; color: #fff; font-size: 1.1rem; }
 
 /* Mobile */
+@media (max-width: 1100px) {
+  .brand-sub { display: none; }
+  .site-nav a { margin-left: 1.1rem; }
+}
 @media (max-width: 860px) {
   .split, .research-area { grid-template-columns: 1fr; gap: 1rem; }
 }
@@ -168,3 +176,15 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .page > .callout { margin-top: 1rem; max-width: 640px; }
 @media (max-width: 860px) { .facility { grid-template-columns: 1fr; gap: 1rem; } }
 @media (max-width: 440px) { .specs { grid-template-columns: 1fr; } }
+
+/* Teaching */
+.courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 1rem; }
+.course { border: 1px solid var(--line); border-top: 3px solid var(--maroon); border-radius: 6px; padding: 18px 20px 20px; display: flex; flex-direction: column; }
+.course h3 { margin: .2rem 0 .2rem; }
+.course-level { margin: 0; font-size: .8rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--maroon); }
+.course-instructor { margin: 0 0 .8rem; color: var(--muted); }
+.course-meta { margin: 0 0 1rem; display: grid; grid-template-columns: auto 1fr; gap: 2px 14px; font-size: .92rem; }
+.course-meta div { display: contents; }
+.course-meta dt { color: var(--muted); }
+.course-meta dd { margin: 0; }
+.course .more { margin-top: auto; }

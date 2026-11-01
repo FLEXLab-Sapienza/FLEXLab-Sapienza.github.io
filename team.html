@@ -20,9 +20,8 @@ permalink: /team/
         <p class="name">{{ p.name }}</p>
         <p class="role">{{ p.role }}</p>
         <p class="links">
-          {% if p.sapienza %}<a href="{{ p.sapienza }}">Sapienza page</a>{% endif %}
-          {% if p.phd %}<a href="{{ p.phd }}">PhD page</a>{% endif %}
-          {% if p.orcid %}<a href="{{ p.orcid }}">ORCID</a>{% endif %}
+          {% if p.sapienza %}<a class="icon-link" href="{{ p.sapienza }}" title="Sapienza page" aria-label="{{ p.name }} on the Sapienza website"><img src="{{ '/assets/img/icons/sapienza.png' | relative_url }}" alt=""></a>{% endif %}
+          {% if p.orcid %}<a class="icon-link" href="{{ p.orcid }}" title="ORCID" aria-label="{{ p.name }} on ORCID"><img src="{{ '/assets/img/icons/orcid.svg' | relative_url }}" alt=""></a>{% endif %}
           {% if p.scholar %}<a href="{{ p.scholar }}">Google Scholar</a>{% endif %}
           {% if p.website %}<a href="{{ p.website }}">Website</a>{% endif %}
         </p>

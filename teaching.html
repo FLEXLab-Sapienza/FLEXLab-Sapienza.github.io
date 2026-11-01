@@ -1,0 +1,40 @@
+---
+layout: page
+title: Teaching
+lead: >-
+  Group members teach experimental aerodynamics and fluid mechanics in the Bachelor's, Master's
+  and PhD programmes of Sapienza's Faculty of Civil and Industrial Engineering.
+permalink: /teaching/
+---
+<h2>Courses</h2>
+<div class="courses">
+  {% for c in site.data.teaching %}
+  <article class="course">
+    <p class="course-level">{{ c.level }} &middot; {{ c.degree }}</p>
+    <h3>{{ c.title }}</h3>
+    <p class="course-instructor">{{ c.instructor }}</p>
+    <dl class="course-meta">
+      <div><dt>When</dt><dd>{{ c.year }}</dd></div>
+      <div><dt>Language</dt><dd>{{ c.language }}</dd></div>
+      <div><dt>Code</dt><dd>{{ c.code }}</dd></div>
+    </dl>
+    <a class="more" href="{{ c.url }}">Course page &rarr;</a>
+  </article>
+  {% endfor %}
+</div>
+
+<h2>PhD programme</h2>
+<div class="split">
+  <div>
+    <p>Giovanni Paolo Romano coordinates the PhD programme in <strong>Theoretical and Applied Mechanics</strong>,
+    hosted by the Department of Mechanical and Aerospace Engineering. The programme covers fluid dynamics,
+    applied mechanics, and mechanics of solids and structures; our PhD students carry out their research
+    within it.</p>
+    <p><a class="more" href="https://phd.uniroma1.it/web/THEORETICAL-AND-APPLIED-MECHANICS_nD3520_EN.aspx">PhD programme page &rarr;</a></p>
+  </div>
+  <aside class="callout">
+    <h3>Theses</h3>
+    <p>We offer Bachelor's and Master's theses in experimental fluid dynamics, with hands-on work in the wind tunnel and in the lab.</p>
+    <p><a class="more" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a></p>
+  </aside>
+</div>
