@@ -1,20 +1,6 @@
 # Journal articles by team members, newest first.
 # Sources: members' ORCID records + Crossref metadata. Fields: authors, title, venue, volume, pages, year, doi
 
-- authors: "P. M. Zolla, A. Zavoli, M. T. Migliorino, D. Bianchi"
-  title: "Neural Network-Based Optimization of Hybrid Rocket Design for Modular Multistage Launch Vehicle"
-  venue: "Aerospace"
-  volume: "13"
-  pages: "374"
-  year: 2026
-  doi: "10.3390/aerospace13040374"
-- authors: "M. Fabiani, S. Cassese, V. M. Capone, M. T. Migliorino, S. Mungiguerra, D. Bianchi, F. Nasuti, R. Savino"
-  title: "Numerical and experimental analysis of a 200 N class GOX-ABS hybrid rocket engine"
-  venue: "Aerospace Science and Technology"
-  volume: "168"
-  pages: "111157"
-  year: 2026
-  doi: "10.1016/j.ast.2025.111157"
 - authors: "E. Domini, G. Moscato, A. Lago, F. Testa, F. M. Paluello, G. P. Romano"
   title: "RoDaVi – a mixed drag-lift wind turbine: experimental investigation on performances and flows"
   venue: "Energy"
@@ -43,13 +29,6 @@
   pages: "386-397"
   year: 2025
   doi: "10.2514/1.t7056"
-- authors: "M. Fabiani, M. T. Migliorino, D. Bianchi, F. Nasuti"
-  title: "Spectral and Global Radiative Heat Transfer Models for Liquid Propellant Rocket Engines"
-  venue: "Journal of Propulsion and Power"
-  volume: "41"
-  pages: "650-664"
-  year: 2025
-  doi: "10.2514/1.b39892"
 - authors: "G. Moscato, G. P. Romano"
   title: "Biomimetic Wings for Micro Air Vehicles"
   venue: "Biomimetics"
@@ -57,20 +36,6 @@
   pages: "553"
   year: 2024
   doi: "10.3390/biomimetics9090553"
-- authors: "M. Rotondi, M. T. Migliorino, D. Bianchi, L. Kamps, H. Nagata"
-  title: "Computational Analysis and Regression Laws for Nozzle Erosion Prediction in Hybrid Rockets"
-  venue: "Journal of Propulsion and Power"
-  volume: "40"
-  pages: "439-459"
-  year: 2024
-  doi: "10.2514/1.b39322"
-- authors: "M. Stella, L. Zeni, L. Nichelini, N. Bellomo, D. Pavarin, M. T. Migliorino, M. Fabiani, D. Bianchi, F. Nasuti, C. Paravan, L. Galfetti, A. Cretella, R. C. Pellegrini, E. Cavallini, F. Barato"
-  title: "Experimental Investigation of a H2O2 Hybrid Rocket with Different Swirl Injections and Fuels"
-  venue: "Applied Sciences"
-  volume: "14"
-  pages: "5625"
-  year: 2024
-  doi: "10.3390/app14135625"
 - authors: "J. Mohamed, M. Spizzichino, G. Moscato, G. P. Romano"
   title: "Experimental investigation on a microfluidic U-turn channel for heat transfer applications"
   venue: "International Journal of Thermofluids"
@@ -78,13 +43,6 @@
   pages: "100743"
   year: 2024
   doi: "10.1016/j.ijft.2024.100743"
-- authors: "P. M. Zolla, R. Rosa, M. T. Migliorino, D. Bianchi"
-  title: "Multi-disciplinary optimization of single-stage hybrid rockets for lunar ascent"
-  venue: "Acta Astronautica"
-  volume: "222"
-  pages: "493-507"
-  year: 2024
-  doi: "10.1016/j.actaastro.2024.06.026"
 - authors: "G. Moscato, G. P. Romano"
   title: "A comparative study of circular and rectangular bended plunging jets"
   venue: "Experimental Thermal and Fluid Science"
@@ -92,27 +50,6 @@
   pages: "110888"
   year: 2023
   doi: "10.1016/j.expthermflusci.2023.110888"
-- authors: "M. T. Migliorino, M. Fabiani, C. Paravan, D. Bianchi, F. Nasuti, L. Galfetti, R. C. Pellegrini, E. Cavallini"
-  title: "Numerical and experimental analysis of fuel regression rate in a lab-scale hybrid rocket engine with swirl injection"
-  venue: "Aerospace Science and Technology"
-  volume: "140"
-  pages: "108467"
-  year: 2023
-  doi: "10.1016/j.ast.2023.108467"
-- authors: "P. Concio, M. T. Migliorino, D. Bianchi, F. Nasuti"
-  title: "Numerical Estimation of Nozzle Throat Heat Flux in Oxygen-Methane Rocket Engines"
-  venue: "Journal of Propulsion and Power"
-  volume: "39"
-  pages: "71-83"
-  year: 2023
-  doi: "10.2514/1.b38811"
-- authors: "M. T. Migliorino, G. Gubernari, D. Bianchi, F. Nasuti, D. Cardillo, F. Battista"
-  title: "Numerical Simulations of Fuel Shape Change in Paraffin–Oxygen Hybrid Rocket Engines"
-  venue: "Journal of Propulsion and Power"
-  volume: "39"
-  pages: "785-799"
-  year: 2023
-  doi: "10.2514/1.b39086"
 - authors: "A. Capone, G. Moscato, G. P. Romano"
   title: "Role of density ratio on particle dispersion in a turbulent jet"
   venue: "Physics of Fluids"
@@ -120,13 +57,6 @@
   pages: "013332"
   year: 2023
   doi: "10.1063/5.0133182"
-- authors: "M. T. Migliorino, D. Bianchi, F. Nasuti"
-  title: "Graphite Nozzle Erosion Trends in Paraffin/Oxygen Hybrid Rockets"
-  venue: "Journal of Propulsion and Power"
-  volume: "38"
-  pages: "508-522"
-  year: 2022
-  doi: "10.2514/1.b38574"
 - authors: "G. Moscato, J. Mohamed, G. P. Romano"
   title: "Improving performances of biomimetic wings with leading-edge tubercles"
   venue: "Experiments in Fluids"
@@ -134,13 +64,6 @@
   pages: "146"
   year: 2022
   doi: "10.1007/s00348-022-03493-8"
-- authors: "D. Bianchi, M. T. Migliorino, M. Rotondi, L. Kamps, H. Nagata"
-  title: "Numerical Analysis of Nozzle Erosion in Hybrid Rockets and Comparison with Experiments"
-  venue: "Journal of Propulsion and Power"
-  volume: "38"
-  pages: "389-409"
-  year: 2022
-  doi: "10.2514/1.b38547"
 - authors: "M. Rotondi, M. T. Migliorino, D. Bianchi, P. Pagani, A. Turchi"
   title: "Numerical Assessment of Camphor Ablation Flight Relevance in Hypersonic Wind-Tunnel Testing"
   venue: "Journal of Spacecraft and Rockets"
@@ -148,20 +71,6 @@
   pages: "1574-1591"
   year: 2022
   doi: "10.2514/1.a35318"
-- authors: "M. T. Migliorino, M. Aiello, M. Berti, M. Rotondi, S. D’Alessandro, D. Bianchi, M. Jahjah, M. Pizzarelli"
-  title: "Student firing tests and launches with commercial and self-made solid rocket motors"
-  venue: "Acta Astronautica"
-  volume: "197"
-  pages: "23-34"
-  year: 2022
-  doi: "10.1016/j.actaastro.2022.04.025"
-- authors: "A. Zavoli, P. M. Zolla, L. Federici, M. T. Migliorino, D. Bianchi"
-  title: "Surrogate Neural Network for Rapid Flight Performance Evaluation of Hybrid Rocket Engines"
-  venue: "Journal of Spacecraft and Rockets"
-  volume: "59"
-  pages: "2003-2016"
-  year: 2022
-  doi: "10.2514/1.a35369"
 - authors: "A. Capone, G. P. Romano"
   title: "Effect of windshield configuration and pilot position on motorcycle performances"
   venue: "Journal of Wind Engineering and Industrial Aerodynamics"
@@ -183,13 +92,6 @@
   pages: "121430"
   year: 2021
   doi: "10.1016/j.ijheatmasstransfer.2021.121430"
-- authors: "M. T. Migliorino, D. Bianchi, F. Nasuti"
-  title: "Numerical Simulations of the Internal Ballistics of Paraffin–Oxygen Hybrid Rockets at Different Scales"
-  venue: "Aerospace"
-  volume: "8"
-  pages: "213"
-  year: 2021
-  doi: "10.3390/aerospace8080213"
 - authors: "S. A. Hunt, M. T. Migliorino, C. Scalo, S. D. Heister"
   title: "Onset Criteria for Bulk-Mode Thermoacoustic Instabilities in Supercritical Hydrocarbon Fuels"
   venue: "Journal of Fluids Engineering"
@@ -239,13 +141,6 @@
   pages: "108571"
   year: 2020
   doi: "10.1016/j.ijheatfluidflow.2020.108571"
-- authors: "M. T. Migliorino, D. Bianchi, F. Nasuti"
-  title: "Numerical Analysis of Paraffin-Wax/Oxygen Hybrid Rocket Engines"
-  venue: "Journal of Propulsion and Power"
-  volume: "36"
-  pages: "806-819"
-  year: 2020
-  doi: "10.2514/1.b37914"
 - authors: "M. Eugeni, H. Elahi, F. Fune, L. Lampani, F. Mastroddi, G. P. Romano, P. Gaudenzi"
   title: "Numerical and experimental investigation of piezoelectric energy harvester based on flag-flutter"
   venue: "Aerospace Science and Technology"
