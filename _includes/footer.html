@@ -2,10 +2,10 @@
   <div class="container footer-inner">
     <div>
       <p class="footer-name">{{ site.title }}</p>
-      <p>{{ site.address | newline_to_br }}</p>
+      <p class="footer-acronym">Flow Experiments Laboratory</p>
+      <p>{{ site.affiliation }}<br>{{ site.address | newline_to_br }}</p>
     </div>
     <div>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}, {{ site.affiliation }}</p>
     </div>
   </div>
