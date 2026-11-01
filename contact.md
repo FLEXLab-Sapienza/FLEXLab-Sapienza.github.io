@@ -6,8 +6,6 @@ permalink: /contact/
 <div class="split" markdown="1">
 <div markdown="1">
 
-## Where we are
-
 **Laboratorio di Fluidodinamica Sperimentale**<br>
 {{ site.affiliation }}<br>
 {{ site.address | newline_to_br }}
