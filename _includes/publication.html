@@ -1,8 +1,8 @@
+{% assign authors = include.pub.authors %}
+{% for name in site.highlight_authors %}{% capture bold %}<strong>{{ name }}</strong>{% endcapture %}{% assign authors = authors | replace: name, bold %}{% endfor %}
 <li class="pub">
-  <span class="pub-authors">{{ include.pub.authors }}</span>.
-  <span class="pub-title">{{ include.pub.title }}</span>.
-  <em>{{ include.pub.venue }}</em>, {{ include.pub.year }}.
-  {% if include.pub.doi %}<a href="https://doi.org/{{ include.pub.doi }}">DOI</a>{% endif %}
-  {% if include.pub.pdf %}<a href="{{ include.pub.pdf }}">PDF</a>{% endif %}
-  {% if include.pub.code %}<a href="{{ include.pub.code }}">Code</a>{% endif %}
+  <span class="pub-title">{{ include.pub.title }}</span><br>
+  <span class="pub-authors">{{ authors }}</span><br>
+  <span class="pub-venue"><em>{{ include.pub.venue }}</em>{% if include.pub.volume %} {{ include.pub.volume }}{% endif %}{% if include.pub.pages %}, {{ include.pub.pages }}{% endif %} ({{ include.pub.year }})</span>
+  {% if include.pub.doi %}<a class="pub-doi" href="https://doi.org/{{ include.pub.doi }}">DOI: {{ include.pub.doi }}</a>{% endif %}
 </li>

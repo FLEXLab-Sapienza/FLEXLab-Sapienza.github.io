@@ -12,6 +12,8 @@ Pages injects the Primer theme. English only.
   (maroon `#822433`, ink, muted, line, panel). The only JS is `assets/js/flow.js` (home hero canvas).
 - CSS/JS links carry `?v={{ site.time }}` for cache busting; keep it on any new asset link.
 - Team links are icons (`assets/img/icons/`: Sapienza seal, ORCID iD); no emails on the Team page.
+- Publications: journal articles only, each with a DOI; built from members' ORCID records + Crossref.
+  Team names to bold are in `highlight_authors` in `_config.yml`; biomedical papers are excluded.
 - Member photos: square JPG, ~400px, in `assets/img/people/`, referenced by file name in `members.yml`.
 - Preview locally (Ruby 3.3 from Homebrew) before pushing; check desktop and 375px mobile.
 - Workflow: edit, preview, commit with a clear message, push to `main`.

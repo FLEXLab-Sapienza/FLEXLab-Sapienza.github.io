@@ -15,6 +15,16 @@ address: |
 url: "https://flexlab-sapienza.github.io"
 baseurl: ""
 
+# Names shown in bold in publication author lists.
+highlight_authors:
+  - G. P. Romano
+  - M. T. Migliorino
+  - G. Moscato
+  - S. Marcocci
+  - M. Sollevanti
+  - F. Acquaviva
+  - M. Moradi
+
 nav:
   - title: Research
     url: /research/

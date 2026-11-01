@@ -93,9 +93,13 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 
 /* Publications */
 .pubs { padding-left: 0; list-style: none; }
-.pub { padding: .7rem 0; border-bottom: 1px solid var(--line); }
+.pub { padding: .8rem 0; border-bottom: 1px solid var(--line); line-height: 1.45; }
 .pub-title { font-weight: 600; }
-.pub a { margin-left: .4rem; font-size: .9rem; font-weight: 600; }
+.pub-authors { color: var(--muted); font-size: .95rem; }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.pub-venue { font-size: .95rem; }
+.pub-doi { margin-left: .6rem; font-size: .88rem; font-weight: 600; word-break: break-all; }
+.pub-years { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 1rem; font-weight: 600; }
 
 /* Team */
 .team-group h2 { font-size: 1.6rem; padding-bottom: 8px; border-bottom: 2px solid var(--maroon); }
