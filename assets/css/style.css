@@ -188,3 +188,5 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .course-meta dt { color: var(--muted); }
 .course-meta dd { margin: 0; }
 .course .more { margin-top: auto; }
+.callout.theses { margin-top: 2.6rem; max-width: 640px; }
+.page .split h2 { margin-top: 2.6rem; }

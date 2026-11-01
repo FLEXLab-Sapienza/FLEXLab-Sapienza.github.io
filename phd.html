@@ -1,0 +1,40 @@
+---
+layout: page
+title: PhD
+lead: >-
+  The professors in the team serve on the boards of two doctoral programmes hosted by the
+  Department of Mechanical and Aerospace Engineering.
+permalink: /phd/
+---
+<h2>Programmes</h2>
+<div class="courses">
+  {% for c in site.data.phd %}
+  <article class="course">
+    <p class="course-level">PhD &middot; Sapienza University of Rome</p>
+    <h3>{{ c.title }}</h3>
+    <p class="course-instructor">{{ c.role }}</p>
+    <dl class="course-meta">
+      <div><dt>Coordinator</dt><dd>{{ c.coordinator }}</dd></div>
+      <div><dt>Duration</dt><dd>{{ c.duration }}</dd></div>
+      <div><dt>Areas</dt><dd>{{ c.areas }}</dd></div>
+    </dl>
+    <a class="more" href="{{ c.url }}">Programme page &rarr;</a>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="split">
+  <div>
+    <h2>Our PhD students</h2>
+    <ul class="news-list">
+      {% for group in site.data.members %}{% for p in group.people %}{% if p.role contains "Ph.D. Student" %}
+      <li>{% if p.sapienza %}<a href="{{ p.sapienza }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</li>
+      {% endif %}{% endfor %}{% endfor %}
+    </ul>
+  </div>
+  <aside class="callout">
+    <h3>Join as a PhD student</h3>
+    <p>Interested in a PhD in experimental fluid dynamics? Calls for applications open every year on the programme pages.</p>
+    <p><a class="more" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a></p>
+  </aside>
+</div>

@@ -12,6 +12,7 @@ Website of FLEXLab, Sapienza University of Rome. Built with Jekyll and published
 | Facilities (wind tunnel, lab) | `_data/facilities.yml` |
 | Team | `_data/members.yml` (+ photos in `assets/img/people/`) |
 | Courses | `_data/teaching.yml` |
+| PhD programmes | `_data/phd.yml` |
 | Publications | `_data/publications.yml` |
 | News | a new file in `_posts/` named `YYYY-MM-DD-title.md` |
 | Styles / colors | `assets/css/style.css` |
