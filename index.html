@@ -20,12 +20,9 @@ layout: default
     <h2>Research areas</h2>
     <a class="more" href="{{ '/research/' | relative_url }}">All research &rarr;</a>
   </div>
-  <div class="areas">
+  <div class="areas areas-compact">
     {% for r in site.data.research %}
-    <div class="area">
-      <h3>{{ r.title }}</h3>
-      <p>{{ r.summary }}</p>
-    </div>
+    <a class="area" href="{{ '/research/' | relative_url }}"><h3>{{ r.title }}</h3></a>
     {% endfor %}
   </div>
 </section>
