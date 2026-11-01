@@ -1,6 +1,6 @@
 # FLEXLab-Sapienza website
 
-Experimental fluid dynamics lab (PI: Giovanni Paolo Romano). Jekyll site published by GitHub Pages
+FLEXLab = Flow Experiments Laboratory at Sapienza: experimental fluid dynamics lab (PI: Giovanni Paolo Romano). Jekyll site published by GitHub Pages
 from `main` of `FLEXLab-Sapienza/FLEXLab-Sapienza.github.io` (served at the root URL, `baseurl: ""`).
 Only plugins in the `github-pages` gem whitelist may be used; `theme: null` must stay, otherwise
 Pages injects the Primer theme. English only.
