@@ -10,8 +10,9 @@
   people:
     - name: Giovanni Paolo Romano
       role: Full Professor
+      photo: romano.jpg
       topic: >-
-        Fundamental and applied experimental fluid dynamics: PIV, LDA, hot-wire anemometry,
+        Fundamental and applied experimental fluid dynamics: PIV, hot-wire anemometry,
         experimental aerodynamics.
       email: giampaolo.romano@uniroma1.it
       sapienza: https://corsidilaurea.uniroma1.it/it/users/giampaoloromanouniroma1it
@@ -19,6 +20,7 @@
 
     - name: Mario Tindaro Migliorino
       role: Assistant Professor
+      photo: migliorino.jpg
       email: mariotindaro.migliorino@uniroma1.it
       sapienza: https://corsidilaurea.uniroma1.it/it/users/mariotindaromigliorinouniroma1it
 

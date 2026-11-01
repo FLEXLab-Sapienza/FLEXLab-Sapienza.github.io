@@ -2,9 +2,6 @@
 - abbr: PIV
   name: Particle Image Velocimetry
   summary: Instantaneous velocity fields over a plane illuminated by a laser sheet.
-- abbr: LDA
-  name: Laser Doppler Anemometry
-  summary: Point velocities with high time resolution, without probes in the flow.
 - abbr: HWA
   name: Hot-Wire Anemometry
   summary: Turbulent fluctuations measured up to high frequencies.
