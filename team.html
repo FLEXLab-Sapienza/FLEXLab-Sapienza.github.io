@@ -13,7 +13,7 @@ permalink: /team/
       {% if p.photo %}
         <img class="pic" src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="Photo of {{ p.name }}">
       {% else %}
-        {% assign parts = p.name | split: " " %}
+        {% assign parts = p.name | split: "," | first | split: " " %}
         <div class="pic" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
       {% endif %}
       <div>
@@ -22,6 +22,7 @@ permalink: /team/
         {% if p.topic %}<p class="topic">{{ p.topic }}</p>{% endif %}
         <p class="links">
           {% if p.email %}<a href="mailto:{{ p.email }}">Email</a>{% endif %}
+          {% if p.sapienza %}<a href="{{ p.sapienza }}">Sapienza page</a>{% endif %}
           {% if p.research %}<a href="{{ p.research }}">Ricerc@Sapienza</a>{% endif %}
           {% if p.orcid %}<a href="{{ p.orcid }}">ORCID</a>{% endif %}
           {% if p.scholar %}<a href="{{ p.scholar }}">Google Scholar</a>{% endif %}

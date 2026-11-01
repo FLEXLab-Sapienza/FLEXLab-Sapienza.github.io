@@ -99,7 +99,6 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
 .team-group h2 { font-size: 1.6rem; padding-bottom: 8px; border-bottom: 2px solid var(--maroon); }
 .people { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; }
 .person { display: flex; gap: 20px; align-items: flex-start; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.people.is-lead .person { grid-column: 1 / -1; }
 .pic {
   flex: 0 0 96px; width: 96px; height: 96px; border-radius: 50%; object-fit: cover;
   background: var(--panel); color: var(--maroon); display: flex; align-items: center; justify-content: center;

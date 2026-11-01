@@ -1,31 +1,44 @@
 # Team members. Groups are shown in this order; empty groups are hidden.
 # Fields (all optional except name and role):
-#   topic     research topic or thesis subject
+#   topic     research topics
 #   photo     file name in assets/img/people/ (square JPG ~400px); initials are shown otherwise
-#   email, research (Ricerc@Sapienza URL), orcid (URL), scholar (URL), website (URL)
-# lead: true shows the group with larger, full-width cards.
-- section: Principal Investigator
+#   email, sapienza (personal page on corsidilaurea.uniroma1.it), research (Ricerc@Sapienza URL),
+#   orcid, scholar, website (URLs)
+# lead: true shows the group with larger cards.
+- section: Professors
   lead: true
   people:
     - name: Giovanni Paolo Romano
-      role: Full Professor of Fluid Dynamics
+      role: Full Professor
       topic: >-
         Fundamental and applied experimental fluid dynamics: PIV, LDA, hot-wire anemometry,
         experimental aerodynamics.
       email: giampaolo.romano@uniroma1.it
+      sapienza: https://corsidilaurea.uniroma1.it/it/users/giampaoloromanouniroma1it
       research: https://research.uniroma1.it/researcher/12fa747eb7d79ac8d3fa1e5d9441b2f56db97371f81ba0e86c36b187
 
-- section: Researchers and Postdocs
-  people:
     - name: Mario Tindaro Migliorino
-      role: Researcher
+      role: Assistant Professor
       email: mariotindaro.migliorino@uniroma1.it
+      sapienza: https://corsidilaurea.uniroma1.it/it/users/mariotindaromigliorinouniroma1it
 
-- section: PhD Students
-  people: []
-  # - name: First Last
-  #   role: PhD Student, XL cycle
-  #   topic: Thesis subject
+- section: Researchers
+  people:
+    - name: Giorgio Moscato, Ph.D.
+      role: Postdoc
+      topic: Microfluidics, jet dynamics.
+    - name: Stefano Marcocci
+      role: Ph.D. Student
+      topic: Wind-tunnel PIV, event-based cameras.
+    - name: Matteo Sollevanti
+      role: Ph.D. Student
+      topic: Jet dynamics, Coandă effect, flag flutter.
+    - name: Federico Acquaviva
+      role: Ph.D. Student
+      topic: Multiphase flows, channel flow.
+    - name: Mohammad Moradi
+      role: Research Fellow
+      topic: Microfluidics.
 
 - section: Alumni
   people: []
