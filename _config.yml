@@ -18,6 +18,8 @@ baseurl: ""
 nav:
   - title: Research
     url: /research/
+  - title: Facilities
+    url: /facilities/
   - title: Team
     url: /team/
   - title: Publications

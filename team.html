@@ -19,11 +19,9 @@ permalink: /team/
       <div>
         <p class="name">{{ p.name }}</p>
         <p class="role">{{ p.role }}</p>
-        {% if p.topic %}<p class="topic">{{ p.topic }}</p>{% endif %}
         <p class="links">
-          {% if p.email %}<a href="mailto:{{ p.email }}">Email</a>{% endif %}
           {% if p.sapienza %}<a href="{{ p.sapienza }}">Sapienza page</a>{% endif %}
-          {% if p.research %}<a href="{{ p.research }}">Ricerc@Sapienza</a>{% endif %}
+          {% if p.phd %}<a href="{{ p.phd }}">PhD page</a>{% endif %}
           {% if p.orcid %}<a href="{{ p.orcid }}">ORCID</a>{% endif %}
           {% if p.scholar %}<a href="{{ p.scholar }}">Google Scholar</a>{% endif %}
           {% if p.website %}<a href="{{ p.website }}">Website</a>{% endif %}

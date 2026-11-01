@@ -1,0 +1,34 @@
+# Facilities shown on the Facilities page, in this order.
+# specs: key figures shown as a table. equipment: bullet list.
+- name: Subsonic Wind Tunnel
+  location: Aerodynamics Laboratory, San Pietro in Vincoli, Building A (RM031)
+  summary: >-
+    Open-test-section subsonic wind tunnel for aerodynamic testing of wings, vehicles and
+    devices, including unsteady inflow conditions.
+  specs:
+    - label: Type
+      value: Subsonic, open test section
+    - label: Test section
+      value: 1 m diameter, 1.5 m long
+    - label: Maximum speed
+      value: 50 m/s
+    - label: Overall size
+      value: approx. 15 m × 2 m × 4 m (L × W × H)
+  equipment:
+    - Three-component force balance
+    - Pitot tube system for velocity measurements
+    - Soap-bubble generator and continuous diode laser for flow visualization and PIV
+    - Oscillating vane system to generate unsteady (gusty) inflow
+    - Ground board for car and motorbike models
+
+- name: Experimental Fluid Dynamics Laboratory
+  location: Building RM035
+  summary: >-
+    Laboratory for velocity measurements in single-phase and two-phase turbulent flows, in
+    air and in water.
+  equipment:
+    - High-speed Particle Image Velocimetry (HS-PIV) system
+    - Illumination with lasers and lamps
+    - High-speed, standard and infrared cameras
+    - Hot-wire anemometry
+    - Workstations and dedicated systems for image acquisition and analysis

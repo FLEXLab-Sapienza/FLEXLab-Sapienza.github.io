@@ -154,3 +154,17 @@ h3 { font-weight: 600; font-size: 1.3rem; margin: 0 0 .4rem; }
   .people.is-lead .pic { flex-basis: 96px; width: 96px; height: 96px; font-size: 1.8rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+
+/* Facilities */
+.facility { border-top: 2px solid var(--maroon); padding: 1.4rem 0 2rem; display: grid; grid-template-columns: 3fr 2fr; gap: 40px; }
+.page .facility h2 { margin: 0 0 .2rem; font-size: 1.6rem; }
+.facility .meta { margin: 0 0 .8rem; }
+.facility h3 { margin-top: .3rem; }
+.specs { margin: 1.2rem 0 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 24px; }
+.specs dt { font-size: .85rem; color: var(--muted); }
+.specs dd { margin: 0; font-family: var(--display); font-weight: 600; font-size: 1.15rem; }
+.equipment { margin: 0; padding-left: 1.1rem; }
+.equipment li { margin: .35rem 0; }
+.page > .callout { margin-top: 1rem; max-width: 640px; }
+@media (max-width: 860px) { .facility { grid-template-columns: 1fr; gap: 1rem; } }
+@media (max-width: 440px) { .specs { grid-template-columns: 1fr; } }

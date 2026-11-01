@@ -9,6 +9,7 @@ Website of FLEXLab, Sapienza University of Rome. Built with Jekyll and published
 | Group name, description, address, email | `_config.yml` |
 | Research areas | `_data/research.yml` |
 | Measurement techniques | `_data/techniques.yml` |
+| Facilities (wind tunnel, lab) | `_data/facilities.yml` |
 | Team | `_data/members.yml` (+ photos in `assets/img/people/`) |
 | Publications | `_data/publications.yml` |
 | News | a new file in `_posts/` named `YYYY-MM-DD-title.md` |

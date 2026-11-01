@@ -1,0 +1,34 @@
+---
+layout: page
+title: Facilities
+lead: >-
+  Our experiments run in the wind tunnel and in the fluid dynamics laboratory of the
+  Department of Mechanical and Aerospace Engineering.
+permalink: /facilities/
+---
+{% for f in site.data.facilities %}
+<section class="facility">
+  <div>
+    <h2>{{ f.name }}</h2>
+    <p class="meta">{{ f.location }}</p>
+    <p>{{ f.summary }}</p>
+    {% if f.specs %}
+    <dl class="specs">
+      {% for s in f.specs %}<div><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>{% endfor %}
+    </dl>
+    {% endif %}
+  </div>
+  <div>
+    <h3>Equipment</h3>
+    <ul class="equipment">
+      {% for e in f.equipment %}<li>{{ e }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endfor %}
+
+<aside class="callout">
+  <h3>Testing for industry</h3>
+  <p>Wind-tunnel tests, PIV measurements and flow visualizations are also available to companies and external partners.</p>
+  <p><a class="more" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a></p>
+</aside>

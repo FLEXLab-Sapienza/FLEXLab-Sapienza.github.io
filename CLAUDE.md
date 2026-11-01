@@ -5,7 +5,7 @@ from `main` of `FLEXLab-Sapienza/FLEXLab-Sapienza.github.io` (served at the root
 Only plugins in the `github-pages` gem whitelist may be used; `theme: null` must stay, otherwise
 Pages injects the Primer theme. English only.
 
-- Content lives in `_data/*.yml` (research, techniques, members, publications) and `_posts/`;
+- Content lives in `_data/*.yml` (research, techniques, facilities, members, publications) and `_posts/`;
   pages are thin Liquid templates over that data. Empty member groups are hidden automatically.
 - Internal links go through `| relative_url`.
 - Design: one CSS file, fonts Archivo (headings) + Source Sans 3 (body), palette tokens in `:root`
