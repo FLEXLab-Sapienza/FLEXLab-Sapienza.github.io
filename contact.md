@@ -8,7 +8,8 @@ permalink: /contact/
 
 ## Where we are
 
-**Laboratorio di Fluidodinamica Sperimentale**, {{ site.affiliation }}<br>
+**Laboratorio di Fluidodinamica Sperimentale**<br>
+{{ site.affiliation }}<br>
 {{ site.address | newline_to_br }}
 
 Giovanni Paolo Romano: [giampaolo.romano@uniroma1.it](mailto:giampaolo.romano@uniroma1.it)<br>
