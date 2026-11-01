@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Publications
+title: Selected publications
 permalink: /publications/
 ---
 {% if site.data.publications.size > 0 %}
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
-<p class="lead">{{ site.data.publications.size }} journal articles by members of the team.</p>
 <nav class="pub-years">{% for y in by_year %}<a href="#y{{ y.name }}">{{ y.name }}</a>{% endfor %}</nav>
 {% for y in by_year %}
 <h2 id="y{{ y.name }}">{{ y.name }}</h2>
