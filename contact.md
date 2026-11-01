@@ -11,7 +11,8 @@ permalink: /contact/
 **{{ site.title }}**, {{ site.affiliation }}<br>
 {{ site.address | newline_to_br }}
 
-Email: [{{ site.email }}](mailto:{{ site.email }})
+Giovanni Paolo Romano: [giampaolo.romano@uniroma1.it](mailto:giampaolo.romano@uniroma1.it)<br>
+Mario Tindaro Migliorino: [{{ site.email }}](mailto:{{ site.email }})
 
 </div>
 <aside class="callout" markdown="1">
