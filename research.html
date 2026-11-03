@@ -11,6 +11,7 @@ permalink: /research/
   <h2>{{ r.title }}</h2>
   <div>
     <p>{{ r.summary }}</p>
+    {% if r.photo %}{% include photo.html photo=r.photo %}{% endif %}
   </div>
 </section>
 {% endfor %}

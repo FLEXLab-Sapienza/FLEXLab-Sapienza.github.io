@@ -15,6 +15,8 @@ Pages injects the Primer theme. English only.
 - Team links are icons (`assets/img/icons/`: Sapienza seal, ORCID iD); no emails on the Team page.
 - Publications page is "Selected publications": journal articles from 2020 onward, each with a DOI,
   curated by hand. Team names to bold are in `highlight_authors` in `_config.yml`.
+- Photos in `assets/img/photos/` come from the group's open-access CC BY papers; each needs a caption,
+  credit and DOI (`_includes/photo.html`). Do not use figures from non-open-access or NC-ND papers.
 - Member photos: square JPG, ~400px, in `assets/img/people/`, referenced by file name in `members.yml`.
 - Preview locally (Ruby 3.3 from Homebrew) before pushing; check desktop and 375px mobile.
 - Workflow: edit, preview, commit with a clear message, push to `main`.

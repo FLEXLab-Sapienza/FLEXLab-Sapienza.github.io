@@ -4,13 +4,28 @@
   summary: >-
     Wind-tunnel testing of wings, flapping-wing vehicles and car models, with a focus on
     unsteady phenomena and wake control.
+  photo:
+    file: aero-ahmed-piv.jpg
+    caption: PIV laser sheet on an Ahmed body in the wind tunnel.
+    credit: Moscato & Romano, Exp. Therm. Fluid Sci. (2025)
+    doi: 10.1016/j.expthermflusci.2024.111285
 
 - title: Energy
   summary: >-
     Flows in devices that produce and exchange energy: aeroelastic energy harvesters,
     wind turbines and microchannels for heat transfer.
+  photo:
+    file: energy-rodavi.jpg
+    caption: The RoDaVi wind turbine during PIV measurements.
+    credit: Domini et al., Energy (2026)
+    doi: 10.1016/j.energy.2025.139729
 
 - title: Multiphase and environmental flows
   summary: >-
     Free-surface jets, vortices, fibre suspensions and two-phase flows, up to turbulence over
     gravel beds and sediment transport.
+  photo:
+    file: jets-plunging-piv.jpg
+    caption: A rectangular plunging jet, with and without laser illumination.
+    credit: Moscato & Romano, Exp. Therm. Fluid Sci. (2023)
+    doi: 10.1016/j.expthermflusci.2023.110888

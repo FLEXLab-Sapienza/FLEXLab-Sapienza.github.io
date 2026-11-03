@@ -20,6 +20,11 @@
     - Soap-bubble generator and continuous diode laser for flow visualization and PIV
     - Oscillating vane system to generate unsteady (gusty) inflow
     - Ground board for car and motorbike models
+  photos:
+    - file: tunnel-flags.jpg
+      caption: Test section with a flag-flutter energy harvester.
+      credit: Elahi et al., Micromachines (2020)
+      doi: 10.3390/mi11100933
 
 - name: Experimental Fluid Dynamics Laboratory
   location: Building RM035

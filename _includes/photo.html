@@ -1,0 +1,4 @@
+<figure class="photo">
+  <img src="{{ '/assets/img/photos/' | append: include.photo.file | relative_url }}" alt="{{ include.photo.caption }}" loading="lazy">
+  <figcaption>{{ include.photo.caption }} <span class="credit">From <a href="https://doi.org/{{ include.photo.doi }}">{{ include.photo.credit }}</a>, CC BY 4.0.</span></figcaption>
+</figure>

@@ -24,6 +24,11 @@ permalink: /facilities/
       {% for e in f.equipment %}<li>{{ e }}</li>{% endfor %}
     </ul>
   </div>
+  {% if f.photos %}
+  <div class="photos">
+    {% for ph in f.photos %}{% include photo.html photo=ph %}{% endfor %}
+  </div>
+  {% endif %}
 </section>
 {% endfor %}
 
