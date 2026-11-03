@@ -10,6 +10,8 @@ Pages injects the Primer theme. English only.
 - Internal links go through `| relative_url`.
 - Design: one CSS file, fonts Archivo (headings) + Source Sans 3 (body), palette tokens in `:root`
   (maroon `#822433`, ink, muted, line, panel). The only JS is `assets/js/flow.js` (home hero canvas).
+- `noindex: true` in `_config.yml` keeps the site out of search engines during the preview phase;
+  set it to false only when the user says the site is launched.
 - Home page is only the hero: no content that repeats other pages. No News page.
 - CSS/JS links carry `?v={{ site.time }}` for cache busting; keep it on any new asset link.
 - Team links are icons (`assets/img/icons/`: Sapienza seal, ORCID iD); no emails on the Team page.

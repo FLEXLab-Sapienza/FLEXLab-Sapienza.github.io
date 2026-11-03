@@ -42,6 +42,8 @@ nav:
     url: /contact/
 
 markdown: kramdown
+# Preview phase: ask search engines not to index the site. Set to false at launch.
+noindex: true
 theme: null  # no default GitHub Pages theme; we use our own layouts and CSS
 plugins:
   - jekyll-seo-tag
