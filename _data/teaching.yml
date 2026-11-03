@@ -9,15 +9,6 @@
   cfu: 6
   url: https://corsidilaurea.uniroma1.it/en/course/33474/attendance/lesson/762e40a2-b290-4371-982d-eb52e5cf71dd/3/2/7dd3c328-a037-4ed3-8eb1-d5bdaaa8b26d/6b1c75ac-e31c-4292-8737-c6e4641c4808?channel=0
 
-- title: Experimental Aerodynamics
-  instructor: Mario Tindaro Migliorino
-  degree: Aeronautical Engineering
-  level: M.Sc.
-  year: 2nd year, 1st semester
-  language: English
-  cfu: 6
-  url: https://corsidilaurea.uniroma1.it/en/course/33483/attendance/lesson/bb36597b-811f-4db7-bd23-bd9a8c76f1a5/2/1/eaac48dc-4c5b-463b-bfce-7d67ce116df3/eb7c515e-558d-4b4e-9f13-069772451139?channel=0
-
 - title: Experimental Fluid Mechanics
   instructor: Giovanni Paolo Romano
   degree: Energy and Nuclear Engineering
@@ -26,3 +17,12 @@
   language: English
   cfu: 6
   url: https://corsidilaurea.uniroma1.it/en/course/34181/attendance/lesson/125e9749-ef24-4ce2-be5f-d671b861a0e3/1/2/dd6d413b-4a9b-4e98-9d3d-bebec3650229/95f7d960-ccf8-42cc-a24f-6f6e3d951255?channel=0
+
+- title: Experimental Aerodynamics
+  instructor: Mario Tindaro Migliorino
+  degree: Aeronautical Engineering
+  level: M.Sc.
+  year: 2nd year, 1st semester
+  language: English
+  cfu: 6
+  url: https://corsidilaurea.uniroma1.it/en/course/33483/attendance/lesson/bb36597b-811f-4db7-bd23-bd9a8c76f1a5/2/1/eaac48dc-4c5b-463b-bfce-7d67ce116df3/eb7c515e-558d-4b4e-9f13-069772451139?channel=0
