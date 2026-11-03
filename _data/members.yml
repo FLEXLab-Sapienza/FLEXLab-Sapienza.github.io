@@ -3,7 +3,7 @@
 #   photo     file name in assets/img/people/ (square JPG ~400px); initials are shown otherwise
 #   sapienza  personal Sapienza page (corsidilaurea or phd.uniroma1.it profile)
 #   orcid     ORCID URL (shown as icon, like sapienza); scholar, website (URLs, shown as text)
-# lead: true shows the group with larger cards.
+# lead: true shows the group with larger cards. show_empty: true shows the heading even with no people.
 - section: Professors
   lead: true
   people:
@@ -39,8 +39,11 @@
       sapienza: https://phd.uniroma1.it/web/FEDERICO-ACQUAVIVA_nP1939092_EN.aspx
     - name: Mohammad Moradi
       role: Research Fellow
+    - name: Gianluca Viti
+      role: M.Sc. Thesis Student
 
-- section: Alumni
+- section: Past members
+  show_empty: true
   people: []
   # - name: First Last
   #   role: PhD 2023, now at Company

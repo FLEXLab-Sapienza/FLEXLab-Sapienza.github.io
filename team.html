@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 ---
 {% for group in site.data.members %}
-{% if group.people.size > 0 %}
+{% if group.people.size > 0 or group.show_empty %}
 <section class="team-group">
   <h2>{{ group.section }}</h2>
   <div class="people{% if group.lead %} is-lead{% endif %}">
